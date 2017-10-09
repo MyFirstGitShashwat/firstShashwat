@@ -18,7 +18,12 @@ public class FirstClass {
 		driver.get("https://www.google.co.in");
 		driver.findElement(By.xpath("//*[@id='lst-ib']")).sendKeys("hello");
 		driver.findElement(By.xpath("//*[@id='lst-ib']")).sendKeys(Keys.ENTER);
+
+		// adding a comment line 1
+		// comment line 2
+
 		driver.close();
+
 		
 		
 		
