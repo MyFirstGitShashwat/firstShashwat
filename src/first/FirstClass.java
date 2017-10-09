@@ -18,6 +18,7 @@ public class FirstClass {
 		driver.get("https://www.google.co.in");
 		driver.findElement(By.xpath("//*[@id='lst-ib']")).sendKeys("hello");
 		driver.findElement(By.xpath("//*[@id='lst-ib']")).sendKeys(Keys.ENTER);
+		driver.close();
 		
 		
 		
